@@ -148,17 +148,16 @@ form {
         padding-right: 0;
     }
 
-    /* #footer_container {
-        position: fixed;
-        bottom: 0;
-    } */
+    #my_header {
+        width: 100%;
+    }
+
+    #header_links {
+        padding-right: 5%;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    #main_section {
-        width: 90%;
-    }
-
     #header_container {
         width: 100%;
         padding-left: 0;
@@ -173,14 +172,12 @@ form {
         padding-right: 5%;
     }
 
-    /* #footer_container {
-        position: fixed;
-        bottom: 0;
-    } */
+    #main_section {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 640px) {
-
     header {
         position: static;
     }
@@ -197,8 +194,9 @@ form {
         padding-right: 0;
     }
 
-    #main_section {
-        width: 90%;
+    #profile_picture {
+        width: 100%;
+        height: auto;
     }
 
     #footer_container {
