@@ -57,7 +57,7 @@ a {
 #profile_picture {
     width: 200px;
     height: 200px;
-    display: inline;
+    /* display: inline; */
     float: left;
     padding-right: 20px;
 }
@@ -91,6 +91,7 @@ h2 {
 .portfolio_image_container {
     position: relative;
     float: left;
+    width: 34%;
     margin: 0 40px 40px 0;
 }
 
@@ -105,7 +106,7 @@ h2 {
     position: absolute;
     text-align: center;
     left: 0;
-    top: 150px;
+    top: 75%;
     background-color: #4aaaa5;
     width: 200px;
     padding: 10px 0;
@@ -175,6 +176,23 @@ form {
     #main_section {
         width: 90%;
     }
+
+    .portfolio_image_container {
+        width: 50%;
+        margin: 0 0 10%;
+        padding: 0;
+    }
+
+    .portfolio_image {
+        width: 90%;
+        height: auto;
+        padding: 0 5%;
+    }
+
+    .portfolio_image_text {
+        width: 90%;
+        margin-left: 5%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -201,5 +219,14 @@ form {
 
     #footer_container {
         position: static;
+    }
+
+    .portfolio_image_container {
+        width: 100%;
+    }
+
+    .portfolio_image {
+        width: 90%;
+        height: auto;
     }
 }
